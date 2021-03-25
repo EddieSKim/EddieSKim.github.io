@@ -130,6 +130,10 @@ body {
   display: flex;
 }
 
+.project-content .project p {
+  margin: auto;
+}
+
 .project-content .project .proj-img {
   max-width: 1500px;
   flex: 0 0 150px;
