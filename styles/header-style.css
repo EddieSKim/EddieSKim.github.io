@@ -23,7 +23,7 @@
   padding: 10px 15px 5px;
 }
 
-#top_nav li {
+.selection li {
   list-style: none;
   padding: 10px 15px 10px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -39,7 +39,7 @@
   text-align: center;
 }
 
-li:hover {
+.selection li:hover {
   background: rgb(211, 198, 198);
 }
 
@@ -74,9 +74,9 @@ li:hover {
   width: 25%;
 }
 
-li .email-addr,
-li .phone-num,
-li .resume-description {
+.selection li .email-addr,
+.selection li .phone-num,
+.selection li .resume-description {
   text-align: center;
   font-size: 0.95em;
 }
