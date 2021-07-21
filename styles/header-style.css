@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-fluid {
+  position: sticky;
+  top: 0;
+  background: rgb(34, 33, 33);
+}
+
+#top_nav {
+  display: table;
+  width: 100%;
+}
+
+.container-fluid h1 {
+  color: white;
+  font-size: 2.5em;
+  position: relative;
+  margin: 0;
+  padding: 10px 15px 5px;
+}
+
+#top_nav li.nav-content {
+  list-style: none;
+  padding: 10px 15px 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background: rgb(34, 33, 33);
+  color: white;
+  box-sizing: border-box;
+  transform: translate(0%, 0%);
+  letter-spacing: 0.5px;
+  font-size: 1em;
+  text-transform: uppercase;
+  z-index: 1;
+  text-align: center;
+}
+
+#top_nav li.nav-content:hover {
+  background: rgb(211, 198, 198);
+}
+
+.selection > li {
+  float: right;
+  width: 10%;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  margin: 0;
+}
+
+.child {
+  display: none;
+  padding: 0;
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  margin: 10px 0 0;
+}
+
+#top_nav a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  font-size: 1em;
+}
+
+#nav-icon {
+  width: 25%;
+}
+
+li .email-addr,
+li .phone-num,
+li .resume-description {
+  text-align: center;
+  font-size: 0.95em;
+}

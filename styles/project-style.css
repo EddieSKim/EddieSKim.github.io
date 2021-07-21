@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#body {
+  margin: 0;
+  padding: 5px;
+}
+
+.project-content .content {
+  margin: 10px 10px 10px;
+  padding: 20px 20px 20px;
+}
+
+.container-fluid h3 {
+  padding: 5px 15px 0px;
+  font-size: 2.2em;
+  color: white;
+}
+
+.content h2 {
+  padding: 5px 15px 5px;
+  font-size: 1.8em;
+}
+
+.content li.proj-descript {
+  padding: 5px 30px 5px;
+  background: transparent;
+  width: 60%;
+  color: black;
+  text-align: left;
+  text-transform: none;
+  list-style: circle;
+  list-style-position: inside;
+}
